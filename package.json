@@ -1,0 +1,25 @@
+{
+  "name": "ExtC4_DatosII",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maicolvn1399/ExtC4_DatosII.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maicolvn1399/ExtC4_DatosII/issues"
+  },
+  "homepage": "https://github.com/maicolvn1399/ExtC4_DatosII#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  }
+}
