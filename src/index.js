@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 
 //Connect to DataBase
@@ -26,6 +27,7 @@ app.set('json spaces',2);
 
 
 //Middlewares
+app.use(cors());
 app.use(morgan('dev'));
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
