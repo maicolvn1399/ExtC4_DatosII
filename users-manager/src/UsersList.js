@@ -1,4 +1,4 @@
-const UserList = ({users}) => {
+const UserList = ({users, handleRemoveUser}) => {
 
     return (  
         <div className="user-list">
@@ -10,6 +10,7 @@ const UserList = ({users}) => {
                     <p>Age: {user.age}</p>
                     <p>Code: {user.code}</p>
                     <p>Country: {user.country}</p>
+                    <button onClick = {() => handleRemoveUser(user.code)}>Remove User</button>
                 </div>
             ))}
         </div>

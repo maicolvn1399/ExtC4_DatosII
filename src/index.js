@@ -5,7 +5,7 @@ const cors = require('cors');
 
 
 //Connect to DataBase
-mongoose.connect('mongodb://localhost:27017/usersdb');
+mongoose.connect('mongodb+srv://michael-admin:webapp13@cluster0.7s2vm.mongodb.net/usersdb');
 const db = mongoose.connection;
 
 db.on('error', (err) => {
